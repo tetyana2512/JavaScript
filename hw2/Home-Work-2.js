@@ -1,5 +1,5 @@
-// Home Work 2
-// Task 1
+// // Home Work 2
+// // Task 1
 let num = prompt('Введите число больше 100');
 while (num < 100 || num === null) {
     num = prompt('Попробуйте еще раз');
@@ -46,6 +46,11 @@ for (let n = 1 ; n <= 64 ; n++){
     }
 }
 // Task 5
-let base = prompt('Введите число, которое хотите возвести в степень');
-let n = prompt('Введите число степени');
-let result = Math.pow(base, n);
+
+const pow = (a, b) => {
+    let result = a;
+    for (let i = 1; i < b; i++) {
+        result *= a;
+    }
+    return result;
+}
