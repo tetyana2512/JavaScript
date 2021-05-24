@@ -21,15 +21,15 @@ for (let n = 1; n <=100 ; n++){
     if ((n % 3) && (n % 5)){
         console.log(n)
     } else if (!(n % 3)){
-        console.log('fith');
+        console.log('Fizz');
     } else {
-        console.log('buth');
+        console.log('Buzz');
     }
 }
 // Task 4
 for (let n = 1; n <=100 ; n++){
     if (!(n % 3) && !(n % 5)) {
-        console.log(n)
+        console.log(FizzBuzz)
     }
 }
 
