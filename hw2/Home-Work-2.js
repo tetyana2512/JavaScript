@@ -11,13 +11,11 @@ for (let n = 2; n <= 10; n++){
     let isSimple = true;
     for (let m = 2 ; m <= n-1 ; m++){
        isSimple = isSimple ? !!(n % m) : isSimple;
-        // console.log('for m', m , n , n % m , isSimple)
     }
     if (isSimple){
         simpleNum.push (n);
     }
-}        console.log(simpleNum)
-
+}
 // Task 3
 for (let n = 1; n <=100 ; n++){
     if ((n % 3) && (n % 5)){
@@ -47,10 +45,8 @@ for (let n = 1 ; n <= 64 ; n++){
         string += '\n'
     }
 }
-console.log(string)
 
 // Task 5
 let base = prompt('Введите число, которое хотите возвести в степень');
 let n = prompt('Введите число степени');
 let result = Math.pow(base, n);
-console.log(result)
