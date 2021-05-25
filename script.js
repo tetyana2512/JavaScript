@@ -43,6 +43,7 @@ else {
 let a = 1, b = 2;
 result = (a + b >= 3) ? 'Yep' : 'Noup';
 
+
 // Task 5
 let name = (name = 'admin') ? 'Hi':
     (name = 'manager') ? 'Hello':
