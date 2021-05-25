@@ -17,6 +17,6 @@ function checkSpam(text) {
 // Задание 3 (Троеточие)
 
 function filtr(string) {
-    let points = '...'
+    let points = '...';
        return string.length > 20 ? string.slice(0, 19) + points : string;
 }
